@@ -1,0 +1,10 @@
+print('print')
+f=open('raun.txt','r+')
+f.write("Good")
+f.writelines(["abcd\n","xyz\n"])
+print('char',f.read())
+f.close()
+t=open('raun.txt','r')
+l=t.readlines()
+for x in l:
+    print(x)
