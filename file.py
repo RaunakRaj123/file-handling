@@ -1,6 +1,6 @@
 print('print')
 f=open('raun.txt','r+')
-f.write("Good")
+f.write("Goo")
 f.writelines(["abcd\n","xyz\n"])
 print('char',f.read())
 f.close()
